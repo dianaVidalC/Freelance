@@ -1,3 +1,28 @@
 /*
  * Estilos reutilizables
  */
+
+.primero-mayus{
+
+  text-transform: capitalize;
+}
+
+.mayus{
+  text-transform: uppercase;
+}
+
+.inline{
+  display: inline-flex;
+}
+
+.color-white{
+  color:#FFFFFF;
+}
+
+.left{
+  text-align: left;
+}
+
+.right{
+  text-align: right;
+}

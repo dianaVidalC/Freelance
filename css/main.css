@@ -1,3 +1,98 @@
 /*
  * Estilos de tu proyecto
  */
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: #2C3E50;
+  color:#FFFFFF;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+div.titulo{
+  font-size: 2em;
+  font-weight: 700;
+
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+
+nav ul li{
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav ul li a{
+  text-decoration: none;
+  width: 121px;
+  height: 50px;
+  padding: 10px 20px;
+  color:#FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+}
+nav ul li a:hover{
+  cursor: pointer;
+  color: #18B07C;
+}
+
+section.principal{
+  display: flex;
+  height: 643px;
+  width: 100%;
+  background-color: #18BC9C;
+  align-items:  center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+section.principal div.texto{
+  display: flex;
+  height: 168px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+ h1.nombre{
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+div.texto hr{
+  width: 90px;
+  text-align: center;
+  border:2.5px solid #fff;
+  margin-bottom: 10px;
+}
+
+span.fa-star{
+  margin: 0 5px;
+  font-size: 1.5em;
+}
+
+
+div.texto p{
+  line-height: 1.42;
+  font-size: 1.34rem;
+}
+
+div.texto div{
+  margin-bottom: 20px;
+}
