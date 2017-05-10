@@ -287,8 +287,19 @@ div#textarea{
 
 footer{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   height: 270px;
   width: 100%;
+  background: #2C3E50;
+}
+
+footer div:first-child{
+  display: flex;
+  flex-wrap: wrap;
   color: #fff;
+}
+
+footer div.col-4{
+
 }
