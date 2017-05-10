@@ -13,8 +13,8 @@ footer{
   display: flex;
   height: 100px;
   width: 100%;
-  background-color: #2C3E50;
   color:#FFFFFF;
+  background-color: #2C3E50;
   justify-content: space-between;
   align-items: center;
   padding: 0 100px;
@@ -53,18 +53,11 @@ section.principal{
   height: 643px;
   width: 100%;
   background-color: #18BC9C;
-  align-items:  center;
-  justify-content: center;
-  flex-direction: column;
-
 }
 
 section.principal div.texto{
   display: flex;
   height: 168px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin-top: 20px;
 }
 
@@ -82,7 +75,7 @@ div.texto hr{
   margin-bottom: 10px;
 }
 
-span.fa-star{
+span.star-size{
   margin: 0 5px;
   font-size: 1.5em;
 }
@@ -95,4 +88,36 @@ div.texto p{
 
 div.texto div{
   margin-bottom: 20px;
+}
+
+section.portfolio{
+  display: flex;
+  flex-wrap:wrap;
+  align-content: space-around;
+  height: 888px;
+  background-color: #FFFF;
+  color: #333333;
+
+}
+
+section.portfolio hr{
+  width: 90px;
+  text-align: center;
+  border:2.5px solid #2C3E50;
+  margin-bottom: 10px;
+}
+
+section.portfolio h2{
+  margin-top:109px;
+  margin-bottom: 10px;
+  font-size: 3em;
+}
+
+section.portfolio img{
+  width: 100%;
+  height:100%;
+}
+
+section.portfolio div.grid{
+
 }

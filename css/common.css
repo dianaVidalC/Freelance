@@ -19,10 +19,46 @@
   color:#FFFFFF;
 }
 
+.color-blue{
+  color: #2C3E50;
+}
+
 .left{
   text-align: left;
 }
 
 .right{
   text-align: right;
+}
+
+.column-centrada{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-start{
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.row::before,
+.row::after{
+  content: " ";
+  display: table;
+  padding: 6px;
+}
+
+[class*= "col-"]{
+  min-height: 7px;
+  padding: 12px;
+}
+
+.medida{
+  height: 258px;
+}
+
+.col-3{
+  width: 25%;
 }
