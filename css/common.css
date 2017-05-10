@@ -11,10 +11,6 @@
   text-transform: uppercase;
 }
 
-.inline{
-  display: inline-flex;
-}
-
 .color-white{
   color:#FFFFFF;
 }
@@ -23,6 +19,9 @@
   color: #2C3E50;
 }
 
+.color-dark{
+  color:#333333;
+}
 .left{
   text-align: left;
 }
@@ -67,4 +66,14 @@
   margin-top:109px;
   margin-bottom: 10px;
   font-size: 3em;
+}
+
+
+.col-8{
+  width: 66.6666%;
+
+}
+
+.col-9{
+  width: 75%;
 }
